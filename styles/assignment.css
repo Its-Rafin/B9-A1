@@ -1,0 +1,31 @@
+/* Banner Section */
+.banner-container {
+    text-align: center;
+    border-radius: 16px;
+    margin: 50px 140px;
+}
+.banner-container img{
+    color:#070211, #07021100 ;
+}
+
+.banner-text {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    position: absolute;
+    top: 32%;
+    left:40%;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 800;
+}
