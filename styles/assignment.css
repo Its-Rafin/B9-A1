@@ -1,17 +1,20 @@
 /* Banner Section */
 .banner-container {
     text-align: center;
-    border-radius: 16px;
+    border-radius: 16px 16px;
     margin: 50px 140px;
+    background: #070211, #07021100;
 }
-.banner-container img{
-    color:#070211, #07021100 ;
+
+.banner-container img {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    ;
 }
 
 .banner-text {
     position: absolute;
-    top: 25%;
-    left: 45%;
+    top: 27%;
+    left: 43%;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -21,11 +24,42 @@
 
 .banner-title {
     position: absolute;
-    top: 32%;
-    left:40%;
+    top: 35%;
+    left: 37%;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 800;
+    font-size: 75px;
+    font-weight: 900;
 }
+
+/* Body Section Start */
+/* Holiday Offer */
+.holiday-offer-container {
+    text-align: center;
+}
+
+.section-title {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.section-description {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.section-text {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+.section-img{
+    margin: 48px 398px 0px 399px;
+}
+/* Party Section */
