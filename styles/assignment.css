@@ -4,11 +4,15 @@
     border-radius: 16px 16px;
     margin: 50px 140px;
     background: #070211, #07021100;
+    position: relative;
+
 }
 
 .banner-container img {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     ;
+
+
 }
 
 .banner-text {
@@ -20,6 +24,7 @@
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
+    transform: translate(-50%, -50%);
 }
 
 .banner-title {
@@ -59,7 +64,82 @@
     font-weight: 700;
     margin-top: 7px;
 }
-.section-img{
+
+.section-img {
     margin: 48px 398px 0px 399px;
 }
+
 /* Party Section */
+.party-container {
+    text-align: center;
+    position: relative;
+}
+
+.party-img {
+    margin: 120px 140px 0px 140px;
+}
+
+.party-title {
+    color: #FFF;
+    top: 40%;
+    left: 20%;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    position: absolute;
+    line-height: 88px;
+}
+
+.party-text {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+/* Join Section start */
+.join-container {
+    justify-content: center;
+    text-align: center;
+    padding: 100px 386px 214px 385px;
+    /* color: #F00; */
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.join {
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    padding: ;
+    border-radius: 16px;
+    margin: 120px 140px 0 140px;
+}
+
+.join-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    margin: 48px 577px 110px 576px;
+
+    /* button-text */
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
