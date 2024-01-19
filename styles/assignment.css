@@ -117,7 +117,7 @@
     justify-content: center;
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
-    padding: ;
+    /* padding: ; */
     border-radius: 16px;
     margin: 120px 140px 0 140px;
 }
@@ -142,4 +142,141 @@
     line-height: normal;
     text-transform: uppercase;
     border: none;
+}
+
+/* Portfolio Section */
+.gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.portfolio-img {
+    /* padding: 140px; */
+    margin-top: 48px;
+    margin-right: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio {
+    padding: 0 140px 0 140px;
+    margin-left: 140px;
+    margin-right: 2px;
+    width: 1600px;
+    /* height: 7335px; */
+}
+
+.portfolio-img::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.portfolio-img:hover {
+    opacity: .7;
+    transition: .5s;
+}
+
+/* subscriber section */
+.subscribe {
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    /* padding: ; */
+    border-radius: 16px;
+    margin: 120px 140px 0 140px;
+}
+
+.subscribe-container img {
+    /* padding: 80px 585px 0px 585px; */
+    margin: 80px 585px 0px 585px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.subscribe-container h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.subscribe-container p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0px;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+input[type="email"] {
+    background: #FFFFFF;
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 50px 0 0 50px;
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+.submit {
+    position: relative;
+    border-radius: 0 50px 50px 0;
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    background: #F00;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
 }
